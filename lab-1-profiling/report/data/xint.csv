@@ -1,0 +1,2 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99,9%)","Unit","Param: radius","Param: size","Param: variant"
+"geosearch.benchmark.GeoIndexBenchmark.searchInRadius","avgt",1,10,"553,338306","33,336332","us/op",10.0,100000,BASELINE

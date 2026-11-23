@@ -1,0 +1,13 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99,9%)","Unit","Param: radius","Param: size","Param: variant"
+"geosearch.benchmark.GeoIndexBenchmark.buildQuadtree","avgt",1,10,"1,432203","0,136472","ms/op",,10000,BASELINE
+"geosearch.benchmark.GeoIndexBenchmark.buildQuadtree","avgt",1,10,"0,941153","0,114794","ms/op",,10000,CPU
+"geosearch.benchmark.GeoIndexBenchmark.buildQuadtree","avgt",1,10,"39,440267","8,831447","ms/op",,100000,BASELINE
+"geosearch.benchmark.GeoIndexBenchmark.buildQuadtree","avgt",1,10,"28,446742","2,760238","ms/op",,100000,CPU
+"geosearch.benchmark.GeoIndexBenchmark.buildQuadtree","avgt",1,10,"165,862277","22,000200","ms/op",,300000,BASELINE
+"geosearch.benchmark.GeoIndexBenchmark.buildQuadtree","avgt",1,10,"158,194600","26,313026","ms/op",,300000,CPU
+"geosearch.benchmark.GeoIndexBenchmark.searchInRadius","avgt",1,10,"2,655777","0,120836","us/op",10.0,10000,BASELINE
+"geosearch.benchmark.GeoIndexBenchmark.searchInRadius","avgt",1,10,"2,002943","0,141796","us/op",10.0,10000,MEMORY
+"geosearch.benchmark.GeoIndexBenchmark.searchInRadius","avgt",1,10,"24,332485","5,358737","us/op",10.0,100000,BASELINE
+"geosearch.benchmark.GeoIndexBenchmark.searchInRadius","avgt",1,10,"17,492008","3,233461","us/op",10.0,100000,MEMORY
+"geosearch.benchmark.GeoIndexBenchmark.searchInRadius","avgt",1,10,"54,524544","4,344229","us/op",10.0,300000,BASELINE
+"geosearch.benchmark.GeoIndexBenchmark.searchInRadius","avgt",1,10,"43,420888","3,114488","us/op",10.0,300000,MEMORY

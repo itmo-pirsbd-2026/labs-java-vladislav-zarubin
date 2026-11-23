@@ -1,0 +1,16 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99,9%)","Unit","Param: size","Param: variant"
+"geosearch.benchmark.GeoIndexBenchmark.buildQuadtree","avgt",1,10,"38,408772","4,651299","ms/op",100000,BASELINE
+"geosearch.benchmark.GeoIndexBenchmark.buildQuadtree:gc.alloc.rate","avgt",1,10,"131,971165","16,427730","MB/sec",100000,BASELINE
+"geosearch.benchmark.GeoIndexBenchmark.buildQuadtree:gc.alloc.rate.norm","avgt",1,10,"5300706,136557","70,918456","B/op",100000,BASELINE
+"geosearch.benchmark.GeoIndexBenchmark.buildQuadtree:gc.count","avgt",1,10,"2,000000",NaN,"counts",100000,BASELINE
+"geosearch.benchmark.GeoIndexBenchmark.buildQuadtree:gc.time","avgt",1,10,"14,000000",NaN,"ms",100000,BASELINE
+"geosearch.benchmark.GeoIndexBenchmark.buildQuadtree","avgt",1,10,"29,866709","3,904272","ms/op",100000,CPU
+"geosearch.benchmark.GeoIndexBenchmark.buildQuadtree:gc.alloc.rate","avgt",1,10,"169,906442","21,212917","MB/sec",100000,CPU
+"geosearch.benchmark.GeoIndexBenchmark.buildQuadtree:gc.alloc.rate.norm","avgt",1,10,"5300589,847761","48,808194","B/op",100000,CPU
+"geosearch.benchmark.GeoIndexBenchmark.buildQuadtree:gc.count","avgt",1,10,"4,000000",NaN,"counts",100000,CPU
+"geosearch.benchmark.GeoIndexBenchmark.buildQuadtree:gc.time","avgt",1,10,"28,000000",NaN,"ms",100000,CPU
+"geosearch.benchmark.GeoIndexBenchmark.buildQuadtree","avgt",1,10,"29,516395","4,428651","ms/op",100000,FULL
+"geosearch.benchmark.GeoIndexBenchmark.buildQuadtree:gc.alloc.rate","avgt",1,10,"172,369881","25,193248","MB/sec",100000,FULL
+"geosearch.benchmark.GeoIndexBenchmark.buildQuadtree:gc.alloc.rate.norm","avgt",1,10,"5300582,022900","60,934729","B/op",100000,FULL
+"geosearch.benchmark.GeoIndexBenchmark.buildQuadtree:gc.count","avgt",1,10,"4,000000",NaN,"counts",100000,FULL
+"geosearch.benchmark.GeoIndexBenchmark.buildQuadtree:gc.time","avgt",1,10,"30,000000",NaN,"ms",100000,FULL
